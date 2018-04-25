@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		793309B1208DEF06001253B0 /* SumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793309B0208DEF06001253B0 /* SumViewController.swift */; };
+		79341C15208D90240095900C /* GenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79341C14208D90240095900C /* GenderViewController.swift */; };
 		795BBC2320897FB000E0BDF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795BBC2220897FB000E0BDF7 /* AppDelegate.swift */; };
 		795BBC2820897FB000E0BDF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795BBC2620897FB000E0BDF7 /* Main.storyboard */; };
 		795BBC2A20897FB000E0BDF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 795BBC2920897FB000E0BDF7 /* Assets.xcassets */; };
@@ -15,12 +17,15 @@
 		795F240F2089CB83004C01F7 /* Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 795F240D2089CB83004C01F7 /* Cities.plist */; };
 		795F24102089CB83004C01F7 /* Districts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 795F240E2089CB83004C01F7 /* Districts.plist */; };
 		795F24122089E52E004C01F7 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F24112089E52E004C01F7 /* DataServices.swift */; };
+		7996011B208C1D3D0094D481 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7996011A208C1D3D0094D481 /* PickerViewController.swift */; };
 		79FF758B208A21E4001C08CF /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FF758A208A21E4001C08CF /* City.swift */; };
 		79FF758E208A2B2B001C08CF /* District.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FF758D208A2B2B001C08CF /* District.swift */; };
 		79FF7593208A2D52001C08CF /* DistrictViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FF7592208A2D52001C08CF /* DistrictViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		793309B0208DEF06001253B0 /* SumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumViewController.swift; sourceTree = "<group>"; };
+		79341C14208D90240095900C /* GenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderViewController.swift; sourceTree = "<group>"; };
 		795BBC1F20897FB000E0BDF7 /* DemoRegister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoRegister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		795BBC2220897FB000E0BDF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		795BBC2720897FB000E0BDF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -31,6 +36,7 @@
 		795F240D2089CB83004C01F7 /* Cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cities.plist; sourceTree = "<group>"; };
 		795F240E2089CB83004C01F7 /* Districts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Districts.plist; sourceTree = "<group>"; };
 		795F24112089E52E004C01F7 /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		7996011A208C1D3D0094D481 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		79FF758A208A21E4001C08CF /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		79FF758D208A2B2B001C08CF /* District.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = District.swift; sourceTree = "<group>"; };
 		79FF7592208A2D52001C08CF /* DistrictViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictViewController.swift; sourceTree = "<group>"; };
@@ -69,8 +75,8 @@
 				795F24132089EA6C004C01F7 /* Model */,
 				795BBC372089946300E0BDF7 /* Controller */,
 				795BBC362089945300E0BDF7 /* File Plist */,
-				795BBC2220897FB000E0BDF7 /* AppDelegate.swift */,
 				795BBC2620897FB000E0BDF7 /* Main.storyboard */,
+				795BBC2220897FB000E0BDF7 /* AppDelegate.swift */,
 				795BBC2E20897FB000E0BDF7 /* Info.plist */,
 				795BBC2920897FB000E0BDF7 /* Assets.xcassets */,
 				795BBC2B20897FB000E0BDF7 /* LaunchScreen.storyboard */,
@@ -92,6 +98,9 @@
 			children = (
 				795BBC382089949600E0BDF7 /* CitiesViewController.swift */,
 				79FF7592208A2D52001C08CF /* DistrictViewController.swift */,
+				7996011A208C1D3D0094D481 /* PickerViewController.swift */,
+				79341C14208D90240095900C /* GenderViewController.swift */,
+				793309B0208DEF06001253B0 /* SumViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -181,7 +190,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				79FF758B208A21E4001C08CF /* City.swift in Sources */,
+				79341C15208D90240095900C /* GenderViewController.swift in Sources */,
+				793309B1208DEF06001253B0 /* SumViewController.swift in Sources */,
 				79FF7593208A2D52001C08CF /* DistrictViewController.swift in Sources */,
+				7996011B208C1D3D0094D481 /* PickerViewController.swift in Sources */,
 				79FF758E208A2B2B001C08CF /* District.swift in Sources */,
 				795F24122089E52E004C01F7 /* DataServices.swift in Sources */,
 				795BBC392089949600E0BDF7 /* CitiesViewController.swift in Sources */,
@@ -325,7 +337,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XY8UWSG2LX;
 				INFOPLIST_FILE = DemoRegister/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cong.DemoRegister;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -341,7 +353,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XY8UWSG2LX;
 				INFOPLIST_FILE = DemoRegister/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cong.DemoRegister;
 				PRODUCT_NAME = "$(TARGET_NAME)";

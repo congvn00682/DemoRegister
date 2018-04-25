@@ -12,7 +12,7 @@ class CitiesViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        DataServices.shared.getDataCities()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -41,6 +41,8 @@ class CitiesViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         DataServices.shared.cityCode = DataServices.shared.cities[indexPath.row].cityCode
+        UserDefaults.standard.set(DataServices.shared.cities[indexPath.row].name, forKey: "cityName")
     }
+    
 
 }
