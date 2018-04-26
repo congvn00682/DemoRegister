@@ -21,6 +21,10 @@ class PickerViewController: UIViewController, UIPickerViewDelegate, UIPickerView
         pickerView.selectRow(17, inComponent: 0, animated: true)
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        navigationItem.title = UserDefaults.standard.string(forKey: "districtName")
+    }
+    
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }

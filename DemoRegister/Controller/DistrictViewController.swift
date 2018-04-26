@@ -12,7 +12,11 @@ class DistrictViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//        DataServices.shared.getDataDistricts()
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        navigationItem.title = UserDefaults.standard.string(forKey: "cityName")
     }
     
 

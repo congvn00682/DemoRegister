@@ -21,7 +21,7 @@ class GenderViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        
+//        navigationItem.title = UserDefaults.standard.string(forKey: "chooseAge")
         doneBtn.isEnabled = false
     }
     
